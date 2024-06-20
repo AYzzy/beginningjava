@@ -8,12 +8,11 @@ Scanner input = new Scanner(System.in);
 int positive = 0;
 int negative = 0 ;
 int zeros = 0;
-int number = 0;
 
 while(number != -1){
 
 System.out.print("Enter a number (enter -1 to quit): ");
-number =  input.nextInt();
+int number =  input.nextInt();
 
 if (number >0){
 positive++;
